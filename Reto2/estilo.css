@@ -1,0 +1,47 @@
+iframe{
+
+    width: 80%;
+    height: 150vh;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img/istockphoto-1128020862-170667a.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 160vh;
+}
+h1{
+color: white;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    margin: 5px 10px 0 10px;
+    cursor: pointer;   
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    font-size: 15px;
+    padding-right: 10px;
+
+    
+}
+ul li a:hover{
+    color: tomato;
+}
+ul li:hover{
+    background: rgba(0, 0, 0, 0.527);
+    
+    }

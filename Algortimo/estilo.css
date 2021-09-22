@@ -1,0 +1,96 @@
+*{
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(178, 193, 236);
+}    
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    background-color: burlywood;
+}
+.logo{
+    width: 2.5em;
+    height: auto;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.menu ul li {
+    list-style: none;
+    transition: all 0.5em;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 2em;
+    padding: 0.5em;
+    transition: all 0.5em;
+}
+.menu ul li :hover{
+    background-color: rgb(235, 208, 236);
+    color: rgb(211, 139, 211);
+}
+body div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+body div h1{
+    background-color: rgb(177, 128, 223);
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 2em;
+    font-family: fantasy;
+    cursor: pointer;
+    text-shadow:  3px 3px cadetblue;
+}
+body div{
+    color: rgb(0, 0, 0);
+}
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    height: 130vh;
+    align-items: flex-start;
+}
+.targeta{
+    width: 20%;
+    background-color: rgb(204, 170, 240);
+}
+.targeta > img{
+    width: 100%;
+}
+
+header h2{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+    background-color: rgb(177, 128, 223);
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 2em;
+    font-family: fantasy;
+    cursor: pointer;
+    text-shadow:  3px 3px cadetblue;
+
+}
+
+.leo{
+    width: 15em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
